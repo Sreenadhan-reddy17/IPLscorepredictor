@@ -1,21 +1,5 @@
-# ════════════════════════════════════════════════
-#   IPL Score Predictor – Python Dependencies
-#   Install: pip install -r requirements.txt
-# ════════════════════════════════════════════════
-
-# Web framework
-streamlit>=1.32.0
-
-# Deep Learning  ← use 'tensorflow' (NOT tensorflow-cpu) to avoid
-# "No module named 'tensorflow.python'" import errors on Windows/Mac
-tensorflow>=2.13.0,<2.17.0
-
-# Data processing
-pandas>=2.0.0
-numpy>=1.24.0,<2.0.0
-
-# ML utilities
-scikit-learn>=1.3.0
-
-# Prevents protobuf version conflicts with TensorFlow
-protobuf>=3.20.0,<5.0.0
+tensorflow-cpu
+streamlit
+pandas
+scikit-learn
+numpy
